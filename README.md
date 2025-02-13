@@ -45,5 +45,10 @@ Players can customize the lore style and color of their items.
 
 ### Set Lore Color:
 ```js
-console.log();
+/tag @a projectid(color(black))
+```
+
+### Set Lore Style:
+```js
+/tag @a projectid(style(bold))
 ```
