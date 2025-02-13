@@ -16,3 +16,15 @@ This system helps players track where items come from and who created them.
 - **Dark Aqua**
 - **Dark Red**
 - **Dark Gray**
+- **Gold**
+- **Gray**
+- **Blue**
+- **Green**
+- **Aqua**
+- **Red**
+- **Yellow**
+- **White**
+- **Pink**
+- **Purple**
+
+# Style List (8 Different Styles)
