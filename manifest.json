@@ -1,0 +1,51 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "pack.name",
+        "description": "pack.description",
+        "min_engine_version": [1, 20, 50],
+        "uuid": "08396914-21c0-46ae-8835-08bb6ac4038d",
+        "version": [1, 1, 0]
+    },
+    "modules": [
+        {
+        "description": "Data",
+        "type": "data",
+        "uuid": "5fd40845-c7bf-417e-8980-d2ee91891507",
+        "version": [1, 1, 0]
+        },
+        {
+          "type": "script",
+          "language": "javascript",
+          "uuid": "0d9e14b8-d588-419f-b0e9-768cf6676cb6",
+          "entry": "scripts/source.js",
+          "version": [1, 1, 0]
+        }
+    ],
+    "dependencies": [
+      {
+        "module_name": "@minecraft/server",
+        "version": "1.7.0"
+      },
+      {
+        "module_name": "@minecraft/server-ui",
+        "version": "1.2.0"
+      }
+    ],
+    "metadata": {
+        "authors": ["MRDARK"],
+        "license": "LICENSE.md"
+    },
+    "subpacks": [
+      {
+        "folder_name": "experimental_feature_off",
+        "name": "Experimental Feature §aOn",
+        "memory_tier": 0
+      },
+      {
+        "folder_name": "experimental_feature_off",
+        "name": "Experimental Feature §4Off",
+        "memory_tier": 1
+      }
+    ]
+}
