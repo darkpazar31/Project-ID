@@ -40,7 +40,9 @@ This system helps players track where items come from and who created them.
 
 This addon includes special tag commands for players and addon creators.
 
-`Commands for Players:`
+
+## **`Commands for Players`**
+
 Players can customize the lore style and color of their items.
 
 ### Set Lore Color:
@@ -52,3 +54,23 @@ Players can customize the lore style and color of their items.
 ```js
 /tag @a projectid(style(bold))
 ```
+
+
+## **`Commands for Addon Creators`**
+
+Addon creators can assign a unique identifier to their items and add their name as the author.
+
+### Set Addon Lore Author:
+```js
+/tag @a projectid(identifier(myaddon)author(dark))
+```
+
+This ensures that items display both the addon they belong to and their creator
+
+# Technical Information
+
+**Compatibility:** Works flawlessly on Minecraft 1.21 and lower versions.
+
+**Experimental Features:** No experimental features need to be enabled.
+
+**Addon Compatibility:** Fully compatible with other addons.
