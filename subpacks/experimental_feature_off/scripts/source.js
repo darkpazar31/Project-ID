@@ -34,6 +34,4 @@ world.afterEvents.playerSpawn.subscribe((event) => {
   resetInventoryLore(inventory);
   player.addTag('projectid(identifier(minecraft)author(mojang))');
   player.addTag('projectid(identifier(better_on_bedrock)author(poggy))');
-  player.addTag('projectid(identifier(morph)author(cookiedookie))');
-  player.addTag('projectid(identifier(yg)author(thedescrationshow))');
 });
