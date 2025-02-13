@@ -27,4 +27,23 @@ This system helps players track where items come from and who created them.
 - **Pink**
 - **Purple**
 
-# Style List (8 Different Styles)
+# Style List (6 Different Styles)
+
+- **Bold**
+- **Italic**
+- **Underline**
+- **Strikethrough**
+- **Obfuscated**
+- **Reset**
+
+# Tag Commands
+
+This addon includes special tag commands for players and addon creators.
+
+`Commands for Players:`
+Players can customize the lore style and color of their items.
+
+### Set Lore Color:
+```js
+console.log();
+```
